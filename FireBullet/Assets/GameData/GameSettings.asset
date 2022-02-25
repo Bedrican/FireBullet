@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57417bfff3767744bdaa54278e9bac6, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  Bullet: {fileID: 6479591508484933302, guid: 1f5f56670c9534340b07762672f8693d, type: 3}
+  enemies:
+  - {fileID: 11400000, guid: 912270c0135e17743bfe79201ac5180d, type: 2}
+  - {fileID: 11400000, guid: 8c909af7474a8c746b32cd75cfa115ae, type: 2}
+  attackRange: 5
+  playerSpeed: 1.2
+  playerAngularSpeed: 2
+  bulletDamage: 100
+  bulletSpeed: 10
+  eachEnemyCount: 100
